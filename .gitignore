@@ -1,0 +1,35 @@
+# Binaries
+cmd/**/main
+cmd/**/main.exe
+
+# Generated files
+gen/
+
+# Vendor dependencies
+vendor/
+
+# Logs
+*.log
+
+# Config files
+.env
+
+# IDE and editor-specific files
+.idea/
+.vscode/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Go-specific files
+*.out
+*.test
+*.exe
+
+# buf-related
+buf.gen.yaml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
